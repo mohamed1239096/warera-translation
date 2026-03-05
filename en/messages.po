@@ -6924,8 +6924,8 @@ msgid "You very lucky"
 msgstr "You very lucky"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:677
-msgid "You was fired from the government by <0/>"
-msgstr "You was fired from the government by <0/>"
+msgid "You were fired from the government by <0/>"
+msgstr "You were fired from the government by <0/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:206
 #: src/components/_user/notification/notification.frontConfig.tsx:315
