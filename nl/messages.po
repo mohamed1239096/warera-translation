@@ -30,7 +30,7 @@ msgstr "- Deze regio verdedigen heeft een boete van <0>{0}</0>."
 #. placeholder {0}: -region.development * 0.5
 #: src/pages/region/[regionId]/index.tsx:191
 msgid "- Development income is reduced by 50%:<0>{0}</0>."
-msgstr "- Ontwikkelings inkomen verlaagd met 50%:<0>{0}</0>."
+msgstr "- Inkomsten uit ontwikkeling verlaagd met 50%:<0>{0}</0>."
 
 #. placeholder {0}: myCountry?.name
 #: src/components/_military/battle/EndedBattlesList.tsx:81
@@ -198,7 +198,7 @@ msgstr "<0/> heeft een opstand gefinancierd in <1/> voor <2/> tegen <3/>"
 #. placeholder {0}: data.wage
 #: src/components/_user/notification/notification.frontConfig.tsx:548
 msgid "<0/> fired you from your <1>{0}</1> wage job in <2/>"
-msgstr "<0/> heeft je ontslagen van je baan met salaris <1>{0}</1>  in <2/>"
+msgstr "<0/> heeft je ontslagen van je baan met salaris <1>{0}</1> in <2/>"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:45
 msgid "<0/> gifted a sub to <1/>"
@@ -315,7 +315,7 @@ msgstr "<0/> is met je verwijzingslink aangemeld bij het spel!"
 #. placeholder {0}: data.wage
 #: src/components/_user/notification/notification.frontConfig.tsx:517
 msgid "<0/> joined your company <1/> for <2>{0}</2> wage"
-msgstr "<0/> bij je bedrijf begonnen <1/> voor <2>{0}</2> loon"
+msgstr "<0/> is bij je bedrijf begonnen <1/> voor <2>{0}</2> loon"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:34
 msgid "<0/> kicked <1/> from the conversation"
@@ -332,11 +332,11 @@ msgstr "<0/> heeft het gesprek verlaten"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:903
 msgid "<0/> liked your article <1/>"
-msgstr "<0/> vind je artikel leuk <1/>"
+msgstr "<0/> vindt je artikel leuk <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:966
 msgid "<0/> liked your message <1/>"
-msgstr "<0/> vind je bericht leuk <1/>"
+msgstr "<0/> vindt je bericht leuk <1/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:249
 msgid "<0/> made peace with <1/>"
@@ -377,7 +377,7 @@ msgstr "<0/> heeft de controle over <1/> overgenomen"
 
 #: src/components/_military/war/WarHeader.tsx:28
 msgid "<0/> vs <1/> war"
-msgstr "oorlog <0/> vs <1/> "
+msgstr "Oorlog <0/> vs <1/>"
 
 #: src/components/_political/law/law.frontConfig.tsx:83
 msgid "<0/> wants to make peace with your country"
@@ -3438,7 +3438,7 @@ msgstr "Laatste geschenken"
 #: src/components/_user/auth/ConnectFromModal.tsx:317
 #: src/components/_user/auth/ConnectFromModal.tsx:336
 msgid "Last used"
-msgstr ""
+msgstr "Laatst gebruikt"
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:192
 msgid "Last used:"
@@ -7118,15 +7118,15 @@ msgstr "Je verwijzingslink"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1472
 msgid "Your team <0/> has been eliminated from the <1/>"
-msgstr "je team <0/> is geëlimineerd uit de <1/>"
+msgstr "Je team <0/> is geëlimineerd uit de <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1383
 msgid "Your team <0/> won a round in <1/>!"
-msgstr "je team <0/> won een ronde in <1/>!"
+msgstr "Je team <0/> won een ronde in <1/>!"
 
 #: src/pages/events/index.tsx:124
 msgid "Your team:"
-msgstr "je team:"
+msgstr "Je team:"
 
 #. placeholder {0}: data.oldWage
 #. placeholder {1}: data.newWage
