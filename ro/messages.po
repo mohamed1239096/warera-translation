@@ -144,6 +144,10 @@ msgstr ""
 msgid "*May burn"
 msgstr "*Posibil să ardă"
 
+#: src/components/_political/government/Government.tsx:154
+msgid "/day"
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:1691
 msgid "<0/> accepted a contract"
 msgstr ""
@@ -1251,7 +1255,7 @@ msgstr ""
 msgid "All Parties"
 msgstr ""
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:194
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:200
 msgid "All rounds"
 msgstr ""
 
@@ -1602,7 +1606,7 @@ msgid "Basic Pants"
 msgstr "Pantaloni"
 
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:84
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:182
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:188
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:194
 #: src/components/_military/mercenaryContract/MercenaryProposalItem.tsx:108
 #: src/components/_military/war/WarHeader.tsx:56
@@ -1681,7 +1685,7 @@ msgstr ""
 msgid "Bonus damages"
 msgstr "Daune bonus"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:160
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:166
 msgid "Bonus on completion"
 msgstr ""
 
@@ -1823,8 +1827,9 @@ msgstr ""
 msgid "Candidate"
 msgstr "Candidat"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:235
-msgid "Cannot exceed {MAX_EFFECTIVE_RATE} money per 1k damage"
+#. placeholder {0}: maxEffectiveRate.toFixed(2)
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:241
+msgid "Cannot exceed {0} money per 1k damage"
 msgstr ""
 
 #: src/components/_political/party/party.frontConfig.tsx:262
@@ -2130,7 +2135,7 @@ msgstr "Completează misiunile zilnice pentru a câștiga XP și a creșste mai 
 msgid "Completed"
 msgstr ""
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:161
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:167
 msgid "Completion Bonus (optional)"
 msgstr ""
 
@@ -2424,8 +2429,12 @@ msgstr "Creează un partid"
 msgid "Create API Token"
 msgstr "Creează Token API"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:137
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:254
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:103
+msgid "Create contract"
+msgstr ""
+
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:143
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:261
 msgid "Create Mercenary Proposal"
 msgstr ""
 
@@ -2463,7 +2472,7 @@ msgstr ""
 msgid "Current Military Unit"
 msgstr "Unitate Militară Actuală"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:195
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:201
 msgid "Current round only"
 msgstr ""
 
@@ -2491,6 +2500,10 @@ msgstr "Întreținere zinlică"
 msgid "Daily Missions Reset"
 msgstr "Resetare Misiuni Zilnice"
 
+#: src/components/_political/government/Government.tsx:139
+msgid "Daily wage paid from the country treasury."
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:443
 msgid "Daily XP available!"
 msgstr "XP zilnic disponibil!"
@@ -2499,11 +2512,11 @@ msgstr "XP zilnic disponibil!"
 msgid "Damage by user"
 msgstr ""
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:154
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:160
 msgid "Damage limit"
 msgstr ""
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:155
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:161
 msgid "Damage Limit"
 msgstr ""
 
@@ -2899,10 +2912,6 @@ msgstr "Legi economice"
 msgid "Economic skills"
 msgstr "Competențe economice"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:121
-msgid "Edit bounty"
-msgstr ""
-
 #: src/components/_user/user/UserDropdown.tsx:209
 msgid "Edit description"
 msgstr "Editează descriere"
@@ -2915,7 +2924,7 @@ msgstr "Editează descrierea"
 msgid "Edit worker"
 msgstr "Editează muncitor"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:219
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:225
 msgid "Effective cost: <0/> for <1/>"
 msgstr ""
 
@@ -3071,7 +3080,7 @@ msgstr "Noutăți"
 msgid "Everyone participates automatically"
 msgstr "Toată lumea participă automat"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:216
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:222
 msgid "Expected Damages:"
 msgstr ""
 
@@ -3259,12 +3268,12 @@ msgstr "Găsește o unitate militară"
 msgid "Find another job"
 msgstr "Găsește alt loc de muncă"
 
+#: src/components/_political/government/Government.tsx:216
 #: src/components/_user/worker/WorkerEditFormModal.tsx:202
 msgid "Fire"
 msgstr "Concediază"
 
-#: src/components/_political/government/Government.tsx:199
-#: src/components/_political/government/Government.tsx:208
+#: src/components/_political/government/Government.tsx:225
 msgid "Fire government member"
 msgstr "Demite un membru al guvernului"
 
@@ -3458,6 +3467,10 @@ msgstr ""
 
 #: src/pages/battles/contracts.tsx:32
 msgid "Government Proposals"
+msgstr ""
+
+#: src/components/_political/government/Government.tsx:150
+msgid "Government wage"
 msgstr ""
 
 #: src/utils/translations.tsx:28
@@ -3671,6 +3684,10 @@ msgstr ""
 #: src/components/_political/party/party.frontConfig.tsx:319
 #: src/components/_political/party/party.frontConfig.tsx:347
 msgid "Industrialist"
+msgstr ""
+
+#: src/components/_political/government/Government.tsx:146
+msgid "Initial development"
 msgstr ""
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:11
@@ -4273,19 +4290,19 @@ msgstr ""
 msgid "Min. active citizens"
 msgstr ""
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:175
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:181
 msgid "Minimum reputation to accept"
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:70
+#: src/components/_political/government/Government.tsx:87
 msgid "Minister of Defense"
 msgstr "Ministrul Apărării"
 
-#: src/components/_political/government/Government.tsx:78
+#: src/components/_political/government/Government.tsx:95
 msgid "Minister of Economy"
 msgstr "Ministrul Finanțelor"
 
-#: src/components/_political/government/Government.tsx:86
+#: src/components/_political/government/Government.tsx:103
 msgid "Minister of Foreign Affairs"
 msgstr "Ministrul Externelor"
 
@@ -4307,11 +4324,11 @@ msgstr ""
 msgid "Money earned from mercenary contracts."
 msgstr "Bani câștigați din contracte militare."
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:147
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:153
 msgid "Money per 1000 damages"
 msgstr ""
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:148
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:154
 msgid "Money per 1k Damages"
 msgstr ""
 
@@ -4440,7 +4457,7 @@ msgstr ""
 msgid "MU treasury"
 msgstr ""
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:227
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:233
 msgid "Must be at least {MIN_EFFECTIVE_RATE} money per 1k damage"
 msgstr ""
 
@@ -4732,7 +4749,7 @@ msgstr ""
 msgid "No offers found"
 msgstr "Nu s-au găsit oferte"
 
-#: src/components/_political/government/Government.tsx:177
+#: src/components/_political/government/Government.tsx:160
 msgid "No one nominated yet"
 msgstr ""
 
@@ -4743,10 +4760,6 @@ msgstr ""
 #: src/components/_political/party/PartyList.tsx:95
 msgid "No parties found"
 msgstr "Nu s-au găsit partide"
-
-#: src/components/_political/government/Government.tsx:57
-msgid "No president"
-msgstr "Niciun președinte"
 
 #: src/pages/country/[countryId]/index.tsx:437
 msgid "No production bonus from resources. This country has no specialization."
@@ -4784,12 +4797,12 @@ msgstr "Niciun război"
 msgid "No work offers"
 msgstr "Fără oferte de muncă"
 
-#: src/components/_political/government/Government.tsx:192
+#: src/components/_political/government/Government.tsx:209
 #: src/components/_political/government/NominateForm.tsx:74
 msgid "Nominate"
 msgstr "Numește în funcție"
 
-#: src/components/_political/government/Government.tsx:223
+#: src/components/_political/government/Government.tsx:237
 msgid "Nominate a {title}"
 msgstr "Numește în funcție: {title}"
 
@@ -4813,7 +4826,7 @@ msgstr "Nu e impresionant, dar nici rușinos"
 msgid "Now we're talking!"
 msgstr "Așa mai vorbim!"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:168
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:174
 msgid "Number of contracts"
 msgstr ""
 
@@ -4823,6 +4836,10 @@ msgstr "Număr de donatori:"
 
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:142
 msgid "Occupied region"
+msgstr ""
+
+#: src/components/_political/government/Government.tsx:144
+msgid "of"
 msgstr ""
 
 #: src/utils/translations.tsx:87
@@ -4927,7 +4944,7 @@ msgstr "Ordin"
 msgid "Orders"
 msgstr "Ordine"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:136
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:135
 msgid "Orders & actions"
 msgstr ""
 
@@ -5213,7 +5230,7 @@ msgstr "Cadou Plan Susținător trimis"
 msgid "Premium has started working"
 msgstr "Planul Susținător a început să funcționeze"
 
-#: src/components/_political/government/Government.tsx:53
+#: src/components/_political/government/Government.tsx:71
 msgid "President"
 msgstr "Președinte"
 
@@ -5410,7 +5427,7 @@ msgstr ""
 msgid "Put yourself to work!"
 msgstr "Hai, la treabă!"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:169
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:175
 msgid "Quantity"
 msgstr ""
 
@@ -5673,8 +5690,8 @@ msgstr "Demite un membru inactiv din parlament"
 msgid "Remove Avatar"
 msgstr "Șterge Avatar"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:102
-msgid "Remove contract"
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:113
+msgid "Remove bounty"
 msgstr ""
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:31
@@ -5707,11 +5724,11 @@ msgstr "Redenumește"
 msgid "Rename company"
 msgstr "Redenumește companie"
 
-#: src/components/_political/government/Government.tsx:192
+#: src/components/_political/government/Government.tsx:209
 msgid "Replace"
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:223
+#: src/components/_political/government/Government.tsx:237
 msgid "Replace {title}"
 msgstr ""
 
@@ -5752,7 +5769,7 @@ msgstr ""
 msgid "Requests:"
 msgstr "Cereri:"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:176
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:182
 msgid "Required Reputation (optional)"
 msgstr ""
 
@@ -5845,7 +5862,7 @@ msgstr ""
 msgid "Rifle"
 msgstr "Pușcă"
 
-#: src/components/_political/government/Government.tsx:140
+#: src/components/_political/government/Government.tsx:123
 msgid "Rights"
 msgstr "Drepturi"
 
@@ -5861,7 +5878,7 @@ msgstr ""
 msgid "Rolled back by Admin"
 msgstr ""
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:190
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:196
 msgid "Round"
 msgstr ""
 
@@ -6103,12 +6120,8 @@ msgstr "Seteaza un articol de bun-venit pentru țară"
 msgid "Set a welcome article for your country<0/>"
 msgstr "Seteaza un articol de bun-venit pentru țară<0/>"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:123
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:122
 msgid "Set bounty"
-msgstr ""
-
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:110
-msgid "Set contract"
 msgstr ""
 
 #: src/components/_political/law/law.frontConfig.tsx:355
@@ -6119,7 +6132,7 @@ msgstr "Setează culoarea țării"
 msgid "Set new party ethics configuration:"
 msgstr ""
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:92
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:94
 msgid "Set order"
 msgstr ""
 
@@ -6506,7 +6519,7 @@ msgstr "Țară target"
 msgid "Target MU"
 msgstr ""
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:199
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:205
 msgid "Target MU (optional)"
 msgstr ""
 
@@ -6648,7 +6661,7 @@ msgstr ""
 msgid "This law requires at least {minActiveCitizen} active citizens (level 10+) in the country."
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:209
+#: src/components/_political/government/Government.tsx:226
 msgid "This member won't be able to be nominated again for {cooldownDays} days."
 msgstr ""
 
@@ -6827,7 +6840,7 @@ msgstr "Total"
 msgid "Total cases opened"
 msgstr ""
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:206
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:212
 msgid "Total cost:"
 msgstr ""
 
@@ -7254,7 +7267,7 @@ msgstr "Se verifică CAPTCHA..."
 msgid "Vice Admiral"
 msgstr "Viceamiral"
 
-#: src/components/_political/government/Government.tsx:62
+#: src/components/_political/government/Government.tsx:79
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:65
 msgid "Vice President"
 msgstr "Vicepreședinte"

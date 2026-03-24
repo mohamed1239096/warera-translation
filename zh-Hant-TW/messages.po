@@ -146,6 +146,10 @@ msgstr "*如果用戶已經擁有一些造型包中的造型，價格會減少"
 msgid "*May burn"
 msgstr "*可能會燒起來"
 
+#: src/components/_political/government/Government.tsx:154
+msgid "/day"
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:1691
 msgid "<0/> accepted a contract"
 msgstr ""
@@ -1253,7 +1257,7 @@ msgstr "所有法規頒布花費將乘以 {0}"
 msgid "All Parties"
 msgstr "所有政黨"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:194
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:200
 msgid "All rounds"
 msgstr ""
 
@@ -1604,7 +1608,7 @@ msgid "Basic Pants"
 msgstr "基礎褲子"
 
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:84
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:182
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:188
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:194
 #: src/components/_military/mercenaryContract/MercenaryProposalItem.tsx:108
 #: src/components/_military/war/WarHeader.tsx:56
@@ -1683,7 +1687,7 @@ msgstr ""
 msgid "Bonus damages"
 msgstr "傷害加成"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:160
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:166
 msgid "Bonus on completion"
 msgstr ""
 
@@ -1825,8 +1829,9 @@ msgstr ""
 msgid "Candidate"
 msgstr "參選"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:235
-msgid "Cannot exceed {MAX_EFFECTIVE_RATE} money per 1k damage"
+#. placeholder {0}: maxEffectiveRate.toFixed(2)
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:241
+msgid "Cannot exceed {0} money per 1k damage"
 msgstr ""
 
 #: src/components/_political/party/party.frontConfig.tsx:262
@@ -2132,7 +2137,7 @@ msgstr "完成每日任務賺取經驗值來讓等級增加的更快。點擊以
 msgid "Completed"
 msgstr ""
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:161
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:167
 msgid "Completion Bonus (optional)"
 msgstr ""
 
@@ -2426,8 +2431,12 @@ msgstr "創建一個政黨"
 msgid "Create API Token"
 msgstr "創建 API token"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:137
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:254
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:103
+msgid "Create contract"
+msgstr ""
+
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:143
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:261
 msgid "Create Mercenary Proposal"
 msgstr ""
 
@@ -2465,7 +2474,7 @@ msgstr "十字弓"
 msgid "Current Military Unit"
 msgstr "目前所處的軍團"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:195
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:201
 msgid "Current round only"
 msgstr ""
 
@@ -2493,6 +2502,10 @@ msgstr "每日維護費"
 msgid "Daily Missions Reset"
 msgstr "每日任務重置"
 
+#: src/components/_political/government/Government.tsx:139
+msgid "Daily wage paid from the country treasury."
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:443
 msgid "Daily XP available!"
 msgstr "每日經驗值可以用了！"
@@ -2501,11 +2514,11 @@ msgstr "每日經驗值可以用了！"
 msgid "Damage by user"
 msgstr ""
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:154
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:160
 msgid "Damage limit"
 msgstr ""
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:155
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:161
 msgid "Damage Limit"
 msgstr ""
 
@@ -2901,10 +2914,6 @@ msgstr "經濟法案"
 msgid "Economic skills"
 msgstr "經濟技能"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:121
-msgid "Edit bounty"
-msgstr ""
-
 #: src/components/_user/user/UserDropdown.tsx:209
 msgid "Edit description"
 msgstr "編輯描述"
@@ -2917,7 +2926,7 @@ msgstr "編輯描述"
 msgid "Edit worker"
 msgstr "編輯員工"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:219
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:225
 msgid "Effective cost: <0/> for <1/>"
 msgstr ""
 
@@ -3073,7 +3082,7 @@ msgstr "活動"
 msgid "Everyone participates automatically"
 msgstr "每個人會自動參加"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:216
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:222
 msgid "Expected Damages:"
 msgstr ""
 
@@ -3261,12 +3270,12 @@ msgstr "找個軍團"
 msgid "Find another job"
 msgstr "找別的工作"
 
+#: src/components/_political/government/Government.tsx:216
 #: src/components/_user/worker/WorkerEditFormModal.tsx:202
 msgid "Fire"
 msgstr "開除"
 
-#: src/components/_political/government/Government.tsx:199
-#: src/components/_political/government/Government.tsx:208
+#: src/components/_political/government/Government.tsx:225
 msgid "Fire government member"
 msgstr "開除政府成員"
 
@@ -3460,6 +3469,10 @@ msgstr ""
 
 #: src/pages/battles/contracts.tsx:32
 msgid "Government Proposals"
+msgstr ""
+
+#: src/components/_political/government/Government.tsx:150
+msgid "Government wage"
 msgstr ""
 
 #: src/utils/translations.tsx:28
@@ -3674,6 +3687,10 @@ msgstr "工業主義 vs 農業主義"
 #: src/components/_political/party/party.frontConfig.tsx:347
 msgid "Industrialist"
 msgstr "工業主義"
+
+#: src/components/_political/government/Government.tsx:146
+msgid "Initial development"
+msgstr ""
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:11
 msgid "Initiate"
@@ -4275,19 +4292,19 @@ msgstr ""
 msgid "Min. active citizens"
 msgstr "最少活躍公民"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:175
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:181
 msgid "Minimum reputation to accept"
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:70
+#: src/components/_political/government/Government.tsx:87
 msgid "Minister of Defense"
 msgstr "國防部長"
 
-#: src/components/_political/government/Government.tsx:78
+#: src/components/_political/government/Government.tsx:95
 msgid "Minister of Economy"
 msgstr "經濟部長"
 
-#: src/components/_political/government/Government.tsx:86
+#: src/components/_political/government/Government.tsx:103
 msgid "Minister of Foreign Affairs"
 msgstr "外交部長"
 
@@ -4309,11 +4326,11 @@ msgstr ""
 msgid "Money earned from mercenary contracts."
 msgstr "從傭兵合約中賺到的錢"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:147
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:153
 msgid "Money per 1000 damages"
 msgstr ""
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:148
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:154
 msgid "Money per 1k Damages"
 msgstr ""
 
@@ -4442,7 +4459,7 @@ msgstr ""
 msgid "MU treasury"
 msgstr ""
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:227
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:233
 msgid "Must be at least {MIN_EFFECTIVE_RATE} money per 1k damage"
 msgstr ""
 
@@ -4734,7 +4751,7 @@ msgstr "尚無提案"
 msgid "No offers found"
 msgstr "沒有找到賣單"
 
-#: src/components/_political/government/Government.tsx:177
+#: src/components/_political/government/Government.tsx:160
 msgid "No one nominated yet"
 msgstr ""
 
@@ -4745,10 +4762,6 @@ msgstr ""
 #: src/components/_political/party/PartyList.tsx:95
 msgid "No parties found"
 msgstr "找不到政黨"
-
-#: src/components/_political/government/Government.tsx:57
-msgid "No president"
-msgstr "沒有總統"
 
 #: src/pages/country/[countryId]/index.tsx:437
 msgid "No production bonus from resources. This country has no specialization."
@@ -4786,12 +4799,12 @@ msgstr "找不到戰爭"
 msgid "No work offers"
 msgstr "找不到職缺"
 
-#: src/components/_political/government/Government.tsx:192
+#: src/components/_political/government/Government.tsx:209
 #: src/components/_political/government/NominateForm.tsx:74
 msgid "Nominate"
 msgstr "指派"
 
-#: src/components/_political/government/Government.tsx:223
+#: src/components/_political/government/Government.tsx:237
 msgid "Nominate a {title}"
 msgstr "指派 {title}"
 
@@ -4815,7 +4828,7 @@ msgstr "不印象深刻，但也不可恥"
 msgid "Now we're talking!"
 msgstr "這才像話！"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:168
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:174
 msgid "Number of contracts"
 msgstr ""
 
@@ -4826,6 +4839,10 @@ msgstr "捐款人數："
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:142
 msgid "Occupied region"
 msgstr "被佔領地區"
+
+#: src/components/_political/government/Government.tsx:144
+msgid "of"
+msgstr ""
 
 #: src/utils/translations.tsx:87
 msgid "Oil"
@@ -4929,7 +4946,7 @@ msgstr "命令"
 msgid "Orders"
 msgstr "命令"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:136
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:135
 msgid "Orders & actions"
 msgstr ""
 
@@ -5215,7 +5232,7 @@ msgstr "已送出高級帳號禮物"
 msgid "Premium has started working"
 msgstr "高帳已經開始有用了"
 
-#: src/components/_political/government/Government.tsx:53
+#: src/components/_political/government/Government.tsx:71
 msgid "President"
 msgstr "總統"
 
@@ -5412,7 +5429,7 @@ msgstr ""
 msgid "Put yourself to work!"
 msgstr "開始工作吧！"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:169
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:175
 msgid "Quantity"
 msgstr ""
 
@@ -5675,8 +5692,8 @@ msgstr "移除一位不活躍的國會議員"
 msgid "Remove Avatar"
 msgstr "移除頭像"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:102
-msgid "Remove contract"
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:113
+msgid "Remove bounty"
 msgstr ""
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:31
@@ -5709,11 +5726,11 @@ msgstr "重新命名"
 msgid "Rename company"
 msgstr "重新命名公司"
 
-#: src/components/_political/government/Government.tsx:192
+#: src/components/_political/government/Government.tsx:209
 msgid "Replace"
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:223
+#: src/components/_political/government/Government.tsx:237
 msgid "Replace {title}"
 msgstr ""
 
@@ -5754,7 +5771,7 @@ msgstr ""
 msgid "Requests:"
 msgstr "請求: "
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:176
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:182
 msgid "Required Reputation (optional)"
 msgstr ""
 
@@ -5847,7 +5864,7 @@ msgstr ""
 msgid "Rifle"
 msgstr "來福槍"
 
-#: src/components/_political/government/Government.tsx:140
+#: src/components/_political/government/Government.tsx:123
 msgid "Rights"
 msgstr "權利"
 
@@ -5863,7 +5880,7 @@ msgstr ""
 msgid "Rolled back by Admin"
 msgstr ""
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:190
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:196
 msgid "Round"
 msgstr ""
 
@@ -6105,12 +6122,8 @@ msgstr "為你的國家設置一個歡迎文章"
 msgid "Set a welcome article for your country<0/>"
 msgstr "為你的國家設置一個歡迎文章 <0/>"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:123
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:122
 msgid "Set bounty"
-msgstr ""
-
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:110
-msgid "Set contract"
 msgstr ""
 
 #: src/components/_political/law/law.frontConfig.tsx:355
@@ -6121,7 +6134,7 @@ msgstr "設定國家顏色"
 msgid "Set new party ethics configuration:"
 msgstr "設置新的政黨傳統配置："
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:92
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:94
 msgid "Set order"
 msgstr ""
 
@@ -6508,7 +6521,7 @@ msgstr "目標國家"
 msgid "Target MU"
 msgstr ""
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:199
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:205
 msgid "Target MU (optional)"
 msgstr ""
 
@@ -6650,7 +6663,7 @@ msgstr "這個法案有額外的花費"
 msgid "This law requires at least {minActiveCitizen} active citizens (level 10+) in the country."
 msgstr "這個法案需要國家中有至少 {minActiveCitizen} 位活躍公民 (等級 10+)"
 
-#: src/components/_political/government/Government.tsx:209
+#: src/components/_political/government/Government.tsx:226
 msgid "This member won't be able to be nominated again for {cooldownDays} days."
 msgstr ""
 
@@ -6829,7 +6842,7 @@ msgstr "總計"
 msgid "Total cases opened"
 msgstr ""
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:206
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:212
 msgid "Total cost:"
 msgstr ""
 
@@ -7256,7 +7269,7 @@ msgstr "正在驗證 CAPTCHA 中..."
 msgid "Vice Admiral"
 msgstr "中將"
 
-#: src/components/_political/government/Government.tsx:62
+#: src/components/_political/government/Government.tsx:79
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:65
 msgid "Vice President"
 msgstr "副總統"

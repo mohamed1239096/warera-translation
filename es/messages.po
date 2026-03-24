@@ -146,6 +146,10 @@ msgstr "*Si el usuario ya posee algunas piezas del set, el precio se reducirá"
 msgid "*May burn"
 msgstr "*Puede arder"
 
+#: src/components/_political/government/Government.tsx:154
+msgid "/day"
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:1691
 msgid "<0/> accepted a contract"
 msgstr "<0/> aceptó un contrato"
@@ -1253,7 +1257,7 @@ msgstr "Todos los costos de aprobación de leyes se multiplican por {0}."
 msgid "All Parties"
 msgstr "Todos los partidos"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:194
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:200
 msgid "All rounds"
 msgstr "Todas las rondas"
 
@@ -1604,7 +1608,7 @@ msgid "Basic Pants"
 msgstr "Pantalones Básicos"
 
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:84
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:182
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:188
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:194
 #: src/components/_military/mercenaryContract/MercenaryProposalItem.tsx:108
 #: src/components/_military/war/WarHeader.tsx:56
@@ -1683,7 +1687,7 @@ msgstr "Bonus"
 msgid "Bonus damages"
 msgstr "Daño extra"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:160
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:166
 msgid "Bonus on completion"
 msgstr "Bonus por completar"
 
@@ -1825,9 +1829,10 @@ msgstr "Cancelado por el Administrador"
 msgid "Candidate"
 msgstr "Candidato"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:235
-msgid "Cannot exceed {MAX_EFFECTIVE_RATE} money per 1k damage"
-msgstr "No puede exceder {MAX_EFFECTIVE_RATE} de dinero por 1k de daño"
+#. placeholder {0}: maxEffectiveRate.toFixed(2)
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:241
+msgid "Cannot exceed {0} money per 1k damage"
+msgstr ""
 
 #: src/components/_political/party/party.frontConfig.tsx:262
 msgid "Cannot have a vice president or ministers."
@@ -2132,7 +2137,7 @@ msgstr "Completa misiones diarias para ganar XP y subir de nivel más rápido. �
 msgid "Completed"
 msgstr "Completado"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:161
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:167
 msgid "Completion Bonus (optional)"
 msgstr "Bono por completar (opcional)"
 
@@ -2426,8 +2431,12 @@ msgstr "Crear un partido"
 msgid "Create API Token"
 msgstr "Crear Token de API"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:137
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:254
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:103
+msgid "Create contract"
+msgstr ""
+
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:143
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:261
 msgid "Create Mercenary Proposal"
 msgstr "Crear propuesta mercenaria"
 
@@ -2465,7 +2474,7 @@ msgstr "Ballesta"
 msgid "Current Military Unit"
 msgstr "Unidad militar actual"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:195
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:201
 msgid "Current round only"
 msgstr "Solo ronda actual"
 
@@ -2493,6 +2502,10 @@ msgstr "Mantenimiento diario"
 msgid "Daily Missions Reset"
 msgstr "Reinicio de Misiones Diarias"
 
+#: src/components/_political/government/Government.tsx:139
+msgid "Daily wage paid from the country treasury."
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:443
 msgid "Daily XP available!"
 msgstr "¡XP diaria disponible!"
@@ -2501,11 +2514,11 @@ msgstr "¡XP diaria disponible!"
 msgid "Damage by user"
 msgstr "Daño por usuario"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:154
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:160
 msgid "Damage limit"
 msgstr "Límite de daño"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:155
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:161
 msgid "Damage Limit"
 msgstr "Límite de daño"
 
@@ -2901,10 +2914,6 @@ msgstr "Leyes económicas"
 msgid "Economic skills"
 msgstr "Habilidades económicas"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:121
-msgid "Edit bounty"
-msgstr "Editar recompensa"
-
 #: src/components/_user/user/UserDropdown.tsx:209
 msgid "Edit description"
 msgstr "Editar descripción"
@@ -2917,7 +2926,7 @@ msgstr "Editar descripción"
 msgid "Edit worker"
 msgstr "Editar trabajador"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:219
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:225
 msgid "Effective cost: <0/> for <1/>"
 msgstr "Costo efectivo: <0/> por <1/>"
 
@@ -3073,7 +3082,7 @@ msgstr "Eventos"
 msgid "Everyone participates automatically"
 msgstr "Todos participan automáticamente"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:216
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:222
 msgid "Expected Damages:"
 msgstr "Daños esperados:"
 
@@ -3261,12 +3270,12 @@ msgstr "Buscar una unidad militar"
 msgid "Find another job"
 msgstr "Buscar otro trabajo"
 
+#: src/components/_political/government/Government.tsx:216
 #: src/components/_user/worker/WorkerEditFormModal.tsx:202
 msgid "Fire"
 msgstr "Despedir"
 
-#: src/components/_political/government/Government.tsx:199
-#: src/components/_political/government/Government.tsx:208
+#: src/components/_political/government/Government.tsx:225
 msgid "Fire government member"
 msgstr "Destituir a un miembro del gobierno"
 
@@ -3461,6 +3470,10 @@ msgstr ""
 #: src/pages/battles/contracts.tsx:32
 msgid "Government Proposals"
 msgstr "Propuestas de gobierno"
+
+#: src/components/_political/government/Government.tsx:150
+msgid "Government wage"
+msgstr ""
 
 #: src/utils/translations.tsx:28
 msgid "Grain"
@@ -3674,6 +3687,10 @@ msgstr "Industrialismo vs Agrarismo"
 #: src/components/_political/party/party.frontConfig.tsx:347
 msgid "Industrialist"
 msgstr "Industrialismo"
+
+#: src/components/_political/government/Government.tsx:146
+msgid "Initial development"
+msgstr ""
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:11
 msgid "Initiate"
@@ -4275,19 +4292,19 @@ msgstr "Unidades militares"
 msgid "Min. active citizens"
 msgstr "Mínimo de ciudadanos activos"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:175
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:181
 msgid "Minimum reputation to accept"
 msgstr "Reputación mínima para aceptar"
 
-#: src/components/_political/government/Government.tsx:70
+#: src/components/_political/government/Government.tsx:87
 msgid "Minister of Defense"
 msgstr "Ministro de Defensa"
 
-#: src/components/_political/government/Government.tsx:78
+#: src/components/_political/government/Government.tsx:95
 msgid "Minister of Economy"
 msgstr "Ministro de Economía"
 
-#: src/components/_political/government/Government.tsx:86
+#: src/components/_political/government/Government.tsx:103
 msgid "Minister of Foreign Affairs"
 msgstr "Ministro de Asuntos Exteriores"
 
@@ -4309,11 +4326,11 @@ msgstr "Dinero"
 msgid "Money earned from mercenary contracts."
 msgstr "Dinero ganado por contratos mercenarios."
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:147
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:153
 msgid "Money per 1000 damages"
 msgstr "Dinero por 1000 de daño"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:148
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:154
 msgid "Money per 1k Damages"
 msgstr "Dinero por 1k de daño"
 
@@ -4442,7 +4459,7 @@ msgstr "Ganador del torneo de UM"
 msgid "MU treasury"
 msgstr "Tesoro de UM"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:227
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:233
 msgid "Must be at least {MIN_EFFECTIVE_RATE} money per 1k damage"
 msgstr "Debe ser al menos {MIN_EFFECTIVE_RATE} de dinero por 1k de daño"
 
@@ -4734,7 +4751,7 @@ msgstr "Aún no hay mociones"
 msgid "No offers found"
 msgstr "No se encontraron ofertas"
 
-#: src/components/_political/government/Government.tsx:177
+#: src/components/_political/government/Government.tsx:160
 msgid "No one nominated yet"
 msgstr ""
 
@@ -4745,10 +4762,6 @@ msgstr "Sin ordenes"
 #: src/components/_political/party/PartyList.tsx:95
 msgid "No parties found"
 msgstr "No se encontraron partidos"
-
-#: src/components/_political/government/Government.tsx:57
-msgid "No president"
-msgstr "Sin presidente"
 
 #: src/pages/country/[countryId]/index.tsx:437
 msgid "No production bonus from resources. This country has no specialization."
@@ -4786,12 +4799,12 @@ msgstr "Ninguna guerra"
 msgid "No work offers"
 msgstr "Sin ofertas de trabajo"
 
-#: src/components/_political/government/Government.tsx:192
+#: src/components/_political/government/Government.tsx:209
 #: src/components/_political/government/NominateForm.tsx:74
 msgid "Nominate"
 msgstr "Nombrar"
 
-#: src/components/_political/government/Government.tsx:223
+#: src/components/_political/government/Government.tsx:237
 msgid "Nominate a {title}"
 msgstr "Nombrar a {title}"
 
@@ -4815,7 +4828,7 @@ msgstr "No impresionante, pero tampoco vergonzoso"
 msgid "Now we're talking!"
 msgstr "¡Ahora sí!"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:168
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:174
 msgid "Number of contracts"
 msgstr "Número de contratos"
 
@@ -4826,6 +4839,10 @@ msgstr "Número de donantes:"
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:142
 msgid "Occupied region"
 msgstr "Region ocupada"
+
+#: src/components/_political/government/Government.tsx:144
+msgid "of"
+msgstr ""
 
 #: src/utils/translations.tsx:87
 msgid "Oil"
@@ -4929,7 +4946,7 @@ msgstr "Orden"
 msgid "Orders"
 msgstr "Órdenes"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:136
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:135
 msgid "Orders & actions"
 msgstr "Órdenes y acciones"
 
@@ -5215,7 +5232,7 @@ msgstr "Regalo premium enviado"
 msgid "Premium has started working"
 msgstr "El premium empezó a funcionar"
 
-#: src/components/_political/government/Government.tsx:53
+#: src/components/_political/government/Government.tsx:71
 msgid "President"
 msgstr "Presidente"
 
@@ -5412,7 +5429,7 @@ msgstr "Báculo morado"
 msgid "Put yourself to work!"
 msgstr "¡Ponte a trabajar!"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:169
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:175
 msgid "Quantity"
 msgstr "Cantidad"
 
@@ -5675,9 +5692,9 @@ msgstr "Destituir a un miembro inactivo del parlamento"
 msgid "Remove Avatar"
 msgstr "Eliminar avatar"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:102
-msgid "Remove contract"
-msgstr "Remover contrato"
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:113
+msgid "Remove bounty"
+msgstr ""
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:31
 msgid "Remove council member"
@@ -5709,11 +5726,11 @@ msgstr "Renombrar"
 msgid "Rename company"
 msgstr "Renombrar empresa"
 
-#: src/components/_political/government/Government.tsx:192
+#: src/components/_political/government/Government.tsx:209
 msgid "Replace"
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:223
+#: src/components/_political/government/Government.tsx:237
 msgid "Replace {title}"
 msgstr ""
 
@@ -5754,7 +5771,7 @@ msgstr "Solicitar verificación del número de teléfono"
 msgid "Requests:"
 msgstr "Solicitudes:"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:176
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:182
 msgid "Required Reputation (optional)"
 msgstr "Reputación requerida (opcional)"
 
@@ -5847,7 +5864,7 @@ msgstr ""
 msgid "Rifle"
 msgstr "Rifle"
 
-#: src/components/_political/government/Government.tsx:140
+#: src/components/_political/government/Government.tsx:123
 msgid "Rights"
 msgstr "Derechos"
 
@@ -5863,7 +5880,7 @@ msgstr "Revertido por el administrador"
 msgid "Rolled back by Admin"
 msgstr "Revertido por el Administrador"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:190
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:196
 msgid "Round"
 msgstr "Ronda"
 
@@ -6105,13 +6122,9 @@ msgstr "Establecer un artículo de bienvenida para tu país"
 msgid "Set a welcome article for your country<0/>"
 msgstr "Establecer un artículo de bienvenida para tu país<0/>"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:123
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:122
 msgid "Set bounty"
 msgstr "Establecer recompensa"
-
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:110
-msgid "Set contract"
-msgstr "Establecer contrato"
 
 #: src/components/_political/law/law.frontConfig.tsx:355
 msgid "Set country color"
@@ -6121,7 +6134,7 @@ msgstr "Establecer color del país"
 msgid "Set new party ethics configuration:"
 msgstr "Establecer una nueva configuración de ideología:"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:92
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:94
 msgid "Set order"
 msgstr "Establecer orden"
 
@@ -6508,7 +6521,7 @@ msgstr "País objetivo"
 msgid "Target MU"
 msgstr "MU objetivo"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:199
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:205
 msgid "Target MU (optional)"
 msgstr "MU objetivo (opcional)"
 
@@ -6650,7 +6663,7 @@ msgstr "Esta ley tiene un costo variable adicional"
 msgid "This law requires at least {minActiveCitizen} active citizens (level 10+) in the country."
 msgstr "Esta ley requirere al menos {minActiveCitizen} ciudadnos activos (de nivel 10+) en el país."
 
-#: src/components/_political/government/Government.tsx:209
+#: src/components/_political/government/Government.tsx:226
 msgid "This member won't be able to be nominated again for {cooldownDays} days."
 msgstr ""
 
@@ -6829,7 +6842,7 @@ msgstr "Total"
 msgid "Total cases opened"
 msgstr "Total de cajas abiertas"
 
-#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:206
+#: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:212
 msgid "Total cost:"
 msgstr "Costo total:"
 
@@ -7256,7 +7269,7 @@ msgstr "Verificando CAPTCHA..."
 msgid "Vice Admiral"
 msgstr "Vicealmirante"
 
-#: src/components/_political/government/Government.tsx:62
+#: src/components/_political/government/Government.tsx:79
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:65
 msgid "Vice President"
 msgstr "Vicepresidente"
