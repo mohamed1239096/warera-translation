@@ -429,7 +429,7 @@ msgstr "<0/> a câștigat lupta ({0}-{1})"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:377
 msgid "<0/> won the primary election in <1/> and can now run for president!"
-msgstr <0/> a câștigat alegerile interne în <1/> și este candidatul principal la președenție!""
+msgstr ""
 
 #. placeholder {0}: data.roundNumber
 #: src/components/_user/notification/notification.frontConfig.tsx:809
@@ -7855,7 +7855,7 @@ msgstr "Ai dăruit cu succes un plan Susținător pentru <0/>!"
 #. placeholder {0}: data.skinPackTitle
 #: src/components/_user/notification/notification.frontConfig.tsx:1934
 msgid "You successfully gifted the skin pack \"{0}\" to <0/>!"
-msgstr "Ai dăruit cu succes pachetul de skinuri "{0}\" către <0/>!"
+msgstr "Ai dăruit cu succes pachetul de skinuri \"{0}\" către <0/>!"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:130
 msgid "You survived the big reset"

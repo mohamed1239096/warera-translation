@@ -8133,4 +8133,3 @@ msgstr "tavs@e-pasts.lv"
 #: src/components/_social/ArticleList.tsx:195
 msgid "Yours"
 msgstr "Tavi"
-
